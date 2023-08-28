@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: darkgoldenrod;
+    
+}
+.container {
+    height: 400px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    /* background-image: url("busStation.jpeg"); */
+    /* background-size: 100%;
+    background-repeat: no-repeat; */
+    background: #fff;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+#increment-btn, #save-btn {
+    background: green;
+}
+#decrease-btn {
+    background: darkgoldenrod;
+}
+#clear-btn {
+    background: darkred;
+}
